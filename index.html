@@ -6,24 +6,51 @@
 		<style type="text/css">
 			page{
 				font-size: 40px;
-			animation: season 10s infinite;
+			
 			}
 			#c{
 				background-color: lightgreen;
+				animation: c 10s infinite;
 			}
 			#x{
 				background-color: red;
+				animation: x 10s infinite;
 			}
 			#q{
-				
+				animation: q 10s infinite;
 			}
 			#d{
 				background-color: black;
 				color: white;
+				animation: d 10s infinite;
 			}
-			@keyframes season{
+			@keyframes c{
 				0%{opacity: 0;}
-				100%{opacity: 100;}
+				25%{opacity: 100;}
+				50%{opacity: 0;}
+				75%{opacity: 0;}
+				100%{opacity: 0;}
+			}
+			@keyframes x{
+				0%{opacity: 0;}
+				25%{opacity: 0;}
+				50%{opacity: 100;}
+				75%{opacity: 0;}
+				100%{opacity: 0;}
+			}
+			@keyframes q{
+				0%{opacity: 0;}
+				25%{opacity: 0;}
+				50%{opacity: 0;}
+				75%{opacity: 100;}
+				100%{opacity: 0;}
+			}
+			@keyframes d{
+				0%{opacity: 0;}
+				25%{opacity: 0;}
+				50%{opacity: 0;}
+				75%{opacity: 0;}
+				100%{opacity:100;}
 			}
 		</style>
 	</head>
